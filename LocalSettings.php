@@ -240,3 +240,5 @@ $wgMaxUploadSize = 100 * 1024 * 1024;
  * Open external links in new tab *
  */
  $wgExternalLinkTarget = '_blank';
+
+wfLoadExtension( 'Cite' );
